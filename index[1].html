@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			TEAM BLACK
+		</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+		.funcs{
+			background-color: black;
+			border: none;
+			color: white;
+			padding: 40px, 20px;
+			font-size: 20px;
+			cursor: pointer;
+			width:100px;
+			height:100px;
+			}
+		.funcs:hover{
+			background-color: red;
+		}
+		p {
+    border: 1px solid blue;
+    padding: 10px;
+}
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+		</style>
+		<script>
+		function myFunction() {
+    var x = document.getElementById("div2");
+    if (x.style.display === "none") {
+        
+		x.style.display = "block";
+    } else {
+	window.alert("Button Gone");
+        x.style.display = "none";
+    }
+}
+</script>
+	</head>
+	<body style="background-color:powderblue;text-align:center;">
+<h1>Hello World</h1>
+		
+<img src="pesuiologo.png" alt="PESUIO" width="56" height="56" >
+		<h5 class="heeueh"> This is TEAM BLACK </h5>
+		<button class="funcs"><i class="fa fa-bell"></i> Alarm</button>
+		<br><br>
+		<button class="funcs"><i class="fa fa-calendar"></i> Calendar</button>
+		<br><br>
+		<button class="funcs"><i class="fa fa-phone"></i> Call</button>
+		<br><br>
+		<button class="funcs"><i class="fa fa-check-square-o"></i> To-do</button>
+		<p style="color:red;font-family:courier">Just a testing page</p>
+		<div id="div2">
+<button id = "myBTN" onclick="myFunction()">Click Me</button>
+<p>This will dissapear as well as the button when clicked</p>
+</div>
+</html>
