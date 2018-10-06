@@ -1,0 +1,6 @@
+TEAM BLACK 
+
+Members - Dhruv, Nikitha & Inshaal
+
+Idea - We're working on an AI Chatbot Application for Android versions 7.1 and above. 
+The application would say tell you weather details along reply to your texts along with sharing weather details and setting up appointments for you.
